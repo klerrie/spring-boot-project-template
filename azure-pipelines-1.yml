@@ -11,5 +11,5 @@ pool:
 
 steps:
 - script: |
-    docker build --build-arg JAR_FILE=build/libs/\*.jar -t springio/gs-spring-boot-docker .
+    docker build -t build-image:latest -f docker/Dockerfile --target-build .
   displayName: 'Build Docker Image.'
