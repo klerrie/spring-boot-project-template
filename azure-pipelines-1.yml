@@ -15,7 +15,6 @@ steps:
     gradleWrapperFile: 'gradlew'
     tasks: 'build'
     publishJUnitResults: true
-    testResultsFiles: '**/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
     sonarQubeRunAnalysis: false
     spotBugsAnalysis: false
